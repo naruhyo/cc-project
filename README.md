@@ -1,6 +1,17 @@
 # Harness Engineering Template
 
-Next.js 16 + React 19 프로젝트 템플릿
+Claude Code 기반 Spec-Driven Development 워크플로우를 실습하는 Next.js 프로젝트 템플릿입니다.
+
+**Ideate → Specify → Sketch → Plan → Build → Compound** 6단계 사이클을 통해, 아이디어에서 검증된 구현까지 체계적으로 진행합니다. 각 단계는 `/idea-refine`, `/write-spec`, `/sketch-wireframe`, `/draft-plan`, `/execute-plan`, `/compound` 슬래시 커맨드로 구동됩니다.
+
+## 프로젝트 개요
+
+| 항목 | 내용 |
+|---|---|
+| **목적** | Claude Code Playbook 실습 환경 |
+| **워크플로우** | Spec-Driven Development (6단계) |
+| **핵심 규칙** | spec.md가 단일 불변 계약 — 구현이 spec에 맞지 않으면 구현을 수정 |
+| **품질 게이트** | 각 단계는 human review를 통과해야 다음 단계로 진행 |
 
 ## 기술 스택
 
